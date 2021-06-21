@@ -1,8 +1,9 @@
 <header class="main-header">
     <!-- Logo -->
     <a href="index2.html" class="logo">
+      
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>W</b>MS</span>
+      <i class="fa fa-home"></i> <span><b>WMS</b></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>WMS</b></span>
     </a>
@@ -224,6 +225,7 @@
                 <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
+                  Stephz - Web Developer
                   <small>Member since 2021</small>
                 </p>
               </li>
