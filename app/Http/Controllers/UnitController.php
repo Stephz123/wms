@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Unit;
 
 class UnitController extends Controller
 {
@@ -13,7 +14,10 @@ class UnitController extends Controller
      */
     public function index()
     {
-        //
+        $data = Unit::paginate(10);
+        return view('unit.home',[
+            'data'=>$data
+        ]);
     }
 
     /**
